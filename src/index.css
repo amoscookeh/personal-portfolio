@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.hero-image {
+    top: 40%
+}
+
+.secondary-title {
+    @apply md:text-4xl text-2xl font-bold;
+}
+
+.secondary-title::before {
+    content: "";
+    @apply block w-20 h-3 bg-theme rounded-full mb-3;
+}
+
+.section-paragraph {
+    @apply text-gray-300 my-6 w-full md:text-xl md:text-left text-base text-center;
+}
+
+/* Scroller styling */
+.scroller {
+    height: 1.2em;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+    width: 9em;
+}
+
+.scroller > span {
+    position: relative;
+    top: 0;
+    animation: slide 7s infinite;
+    font-weight: bold;
+}
+
+.line-1{
+    position: absolute;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+/* Animation */
+.anim-typewriter{
+    animation: typewriter 4s steps(35) 1s 1 normal both,
+               blinkTextCursor 500ms steps(35) infinite normal;
+    }
+    @keyframes typewriter{
+        from{width: 0;}
+        to{width: 17em;}
+    }
+    @keyframes blinkTextCursor{
+        from{border-right-color: rgba(255,255,255,.75);}
+        to{border-right-color: transparent;}
+}
+
+@keyframes slide {
+    0% {
+      top: 0;
+    }
+    20% {
+      top: -1.2em;
+    }
+    40% {
+      top: -2.4em;
+    }
+    60% {
+      top: -3.6em;
+    }
+    80% {
+      top: -4.8em;
+    }
+}

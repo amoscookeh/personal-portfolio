@@ -14,7 +14,7 @@ const AdventureCards = ({ thumbnail, name, details, link }) => {
                 }}>
 
                     <div className="w-full">
-                        <img src={thumbnail} className="rounded-t-2xl" />
+                        <img src={thumbnail} alt="" className="rounded-t-2xl" />
                     </div>
                     <div className="flex-col text-center pt-5">
                         <div className="font-semibold text-base md:text-lg">

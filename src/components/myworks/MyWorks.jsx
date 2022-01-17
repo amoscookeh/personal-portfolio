@@ -17,7 +17,7 @@ const MyWorks = () => {
                     <p className="section-paragraph">{myWorksData.details}</p>
                     <div className="workcards max-w-6xl mx-auto grid gap-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                         {myWorksData.workItems.map(project => (
-                            <WorksCard {...project} />
+                            <WorksCard key={project.projectName} {...project} />
                         ))}
                     </div>
                 </div>

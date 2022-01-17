@@ -27,7 +27,7 @@ function App() {
       <Navbar setShowMenu={setShowMenu} showMenu={showMenu}>
         {navData.map((item, index) => {
           return (
-            <NavItem index={index} closeSideMenu={closeSideMenu} item={item} showMenu={showMenu}/>
+            <NavItem key={index} index={index} closeSideMenu={closeSideMenu} item={item} showMenu={showMenu}/>
           );
         })}
       </Navbar >

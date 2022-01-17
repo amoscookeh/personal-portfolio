@@ -16,9 +16,11 @@ const WorkExperiences = () => {
                     <h2 className="secondary-title">Work Experiences</h2>
                     <p className="section-paragraph">{workExperiencesData.details}</p>
                     <div className="flex-col">
-                        {workExperiencesData.experiences.map(experience => (
+                        {workExperiencesData.experiences.map((experience, index) => (
                             <>
-                                <WorkExperiencesCard {...experience} />
+                                <div key={`workExperiences${index}`}>
+                                    <WorkExperiencesCard {...experience} />
+                                </div>
                             </>
                         ))}
                     </div>

@@ -7,7 +7,7 @@ const WorksCard = ({ companyLogo, companyName, date, role, details, workLink }) 
             <div key={companyName} className="w-full border-2 border-white rounded-xl mt-4 p-16 md:px-32 md:py-20 md:space-x-32 flex justify-center md:justify-start flex-wrap md:flex-nowrap">
 
                 <div className="mb-6 md:mb-0 align-middle flex items-center">
-                    <img src={companyLogo} />
+                    <img src={companyLogo} alt="" />
                 </div>
 
                 <div className="flex flex-wrap justify-center text-center md:text-left md:block">

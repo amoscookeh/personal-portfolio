@@ -7,7 +7,7 @@ const WorksCard = ({ projectLogo, projectName, projectDetails, projectLink }) =>
         <>
             <div key={projectName} className="bg-dark-body rounded-2xl w-80 h-60 md:h-80 mt-14 flex-col items-center justify-center mx-auto relative">
                 <div className="w-1/4 block absolute -top-10 left-0 right-0 mx-auto">
-                    <img src={projectLogo} className="rounded-2xl" />
+                    <img src={projectLogo} alt="" className="rounded-2xl" />
                 </div>
                 <div className="flex-col text-center pt-14">
                     <div className="font-semibold text-base md:text-lg">

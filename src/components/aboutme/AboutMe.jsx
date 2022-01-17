@@ -14,7 +14,7 @@ const AboutMe = () => {
                 <div className="md:w-2/3 w-full">
                     <h2 className="secondary-title">About Me</h2>
                     <div className="md:hidden flex justify-center mt-4">
-                        <img src={amosPhoto} className="w-5/6 rounded-xl" />
+                        <img src={amosPhoto} alt="" className="w-5/6 rounded-xl" />
                     </div>
                     <div className="flex-col justify-center w-full">
                         <p className="section-paragraph">{aboutMeData.general}</p>
@@ -32,7 +32,7 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className="hidden md:flex md:justify-center md:mt-4 md:w-1/3 md:ml-12">
-                    <img src={amosPhoto} className="w-5/6 rounded-xl" />
+                    <img src={amosPhoto} alt="" className="w-5/6 rounded-xl" />
                 </div>
             </div>
         </>

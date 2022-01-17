@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // Components
 import menuIcon from "../../assets/icons/more.png"
@@ -16,7 +16,7 @@ const Navbar = (props) => {
                 {props.children}
             </div>
             <div className="md:hidden">
-                <button className="w-6 object-contain mx-8" onClick={() => { handleClick(); }}><img src={menuIcon} /></button>
+                <button className="w-6 object-contain mx-8" onClick={() => { handleClick(); }}><img src={menuIcon} alt="" /></button>
             </div>
         </div>
         {

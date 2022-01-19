@@ -2,6 +2,7 @@ import React from "react";
 
 // Components
 import menuIcon from "../../assets/icons/more.png"
+import amosIcon from "../../assets/icons/LOGO.PNG"
 
 const Navbar = (props) => {
 
@@ -11,7 +12,10 @@ const Navbar = (props) => {
 
     return (<>
         <div className="bg-dark-body flex justify-between items-center md:py-6 py-3 mx-auto w-full">
-            <div className="text-lg px-8 md:px-14 lg:px-24">Amos Liew</div>
+            <div className="text-lg flex px-8 md:px-14 lg:px-24">
+                <img src={amosIcon} alt="" className="h-8 mr-2 pb-2"/>
+                Amos Liew
+            </div>
             <div className="hidden md:flex">
                 {props.children}
             </div>

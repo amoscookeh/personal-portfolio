@@ -45,7 +45,7 @@ export const myWorksData = {
             projectLogo: PlantieLogo,
             projectName: "Plantie",
             projectDetails: "As one of the co-founders of Plantie, I am in the midst of developing a Plant Growth Tracker using Computer Vision, providing valuable data for a gamified home-based smart gardening experience.",
-            projectLink: "https://t.me/PayMePls_Bot",
+            projectLink: "https://youtu.be/pgNHAWsMWC0",
             inProgress: true
         },
         {

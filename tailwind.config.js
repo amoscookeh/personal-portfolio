@@ -23,6 +23,16 @@ module.exports = {
       lg: "1280px",
       // => @media (min-width: 1280px) { ... }
     },
+    keyframes: {
+      'shiftup': {
+        '0%, 100%': { transform: 'translateY(0px)' },
+        '50%': { transform: 'translateY(-30px)' },
+      }
+    },
+    animation: {
+      'spin-slow': 'spin 3s linear infinite',
+      'wave': 'shiftup 2s infinite'
+    },
   },
   variants: {
     extend: {},

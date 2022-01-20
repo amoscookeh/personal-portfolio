@@ -7,7 +7,12 @@ const WorksCard = ({ projectLogo, projectName, projectDetails, projectLink, inPr
         <>
             <div key={projectName} className="bg-dark-body rounded-2xl w-80 h-72 md:h-80 mt-14 flex-col items-center justify-center mx-auto relative">
                 <div className="w-1/4 block absolute -top-10 left-0 right-0 mx-auto">
-                    <img src={projectLogo} alt="" className="rounded-2xl" />
+                    <img src={projectLogo} alt="" className={`rounded-2xl ${inProgress ? "hover:grayscale" : ""}`} />
+                    {inProgress ? (
+                        <div class="absolute top-1/3 left-0 w-full bg-theme">
+                            <p class="leading-normal font-semibold text-center text-xs text-gray-100">In Progress</p>
+                        </div>
+                    ) : (<></>)}
                 </div>
                 <div className="flex-col text-center pt-14">
                     <div className="font-semibold text-base md:text-lg">
@@ -17,7 +22,7 @@ const WorksCard = ({ projectLogo, projectName, projectDetails, projectLink, inPr
                         {projectDetails}
                     </p>
                     <div className="absolute bottom-5 left-0 right-0 mx-auto ">
-                        <button disabled={inProgress}
+                        <button
                             onClick={(e) => {
                                 e.preventDefault();
                                 window.open(

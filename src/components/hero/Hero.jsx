@@ -12,7 +12,7 @@ const Hero = () => {
         <>
             <div id="home" className="relative w-full h-auto overflow-hidden">
                 <img src={heroImg} alt="" className="object-cover w-full h-full" />
-                <div className="anim-typewriter line-1 hero-image absolute mx-auto w-full inset-x-0 text-xl md:text-5xl text-center leading-6 translate-y-1/2">
+                <div className={`anim-typewriter line-1 hero-image absolute mx-auto w-full inset-x-0 text-xl md:text-5xl text-center leading-6 translate-y-1/2`}>
                     <span>{heroData.quote}</span>
                     <span className="font-bold">{heroData.emphasis}</span>
                 </div>

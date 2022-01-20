@@ -49,6 +49,7 @@ html, body {
 
 /* Animation */
 .anim-typewriter{
+    
     animation: typewriter 4s steps(35) 1s 1 normal both,
                blinkTextCursor 500ms steps(35) infinite normal;
     }
@@ -77,4 +78,38 @@ html, body {
     80% {
       top: -4.8em;
     }
+}
+
+.back span {
+    font-size:3em;
+    display:table-cell;
+    padding: 0 15px;
+    line-height: 100px;
+    animation:jumb 2s infinite;
+}
+@keyframes jumb {
+    0% {
+        transform:translateY(0px);
+        @apply text-gray-300 font-normal
+    }
+    50% {
+        transform:translateY(-30px);
+        @apply text-theme font-bold
+    }
+    100% {
+        transform:translateY(0px);	
+        @apply text-gray-300 font-normal
+    }
+}
+.back span:nth-child(1) {
+    animation-delay:0s;
+}
+.back span:nth-child(2) {
+    animation-delay:.1s;	
+}
+.back span:nth-child(3) {
+    animation-delay:.2s;
+}
+.back span:nth-child(4) {
+    animation-delay:.3s;	
 }

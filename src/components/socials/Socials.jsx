@@ -54,7 +54,7 @@ const Socials = () => {
           onClick={(e) => {
             e.preventDefault();
             window.open(
-              socialsData.instgram,
+              socialsData.instagram,
               "_blank" // <- This is what makes it open in a new window.
             );
           }}

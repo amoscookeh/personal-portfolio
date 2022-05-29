@@ -5,11 +5,13 @@ import PlantieLogo from "./assets/logos/plantielogo.png";
 import Ailogo from "./assets/logos/Ailogo.png";
 import pigupLogo from "./assets/logos/pigup.png";
 import seeturtlelogo from "./assets/logos/seeturtlelogo.png";
+import TeyelandLogo from "./assets/logos/TeyelandLogo.png";
 
 // Company Logos
 import kinexcsLogo from "./assets/logos/kinexcs_logo.svg";
 import skittleLogo from "./assets/logos/skittle-logo.png";
 import beeXLogo from "./assets/logos/BeeX.png";
+import liminalLogo from "./assets/logos/liminalLogo.svg";
 
 // Adventure Thumbnails
 import offthebeatenpath from "./assets/images/offthebeatenpath.jpeg";
@@ -56,6 +58,15 @@ export const myWorksData = {
   details:
     "Just trying to make life better for others, one project at a time...",
   workItems: [
+    {
+      projectLogo: TeyelandLogo,
+      projectName: "Teyeland",
+      projectDetails:
+        "As a part of NES' annual Ground Zero Startathon, my team and I pitched the idea of assessing Myopia using Computer Vision. Our pitch clinched the second runner up position.",
+      projectLink: "https://drive.google.com/file/d/1GgMLUg5BeXPRHuWNKsJ1BCBm9pCpGQgu/view?usp=sharing",
+      inProgress: false,
+      techStacks: [],
+    },
     {
       projectLogo: PlantieLogo,
       projectName: "Plantie",
@@ -120,19 +131,29 @@ export const workExperiencesData = {
     "It has been my pleasure working with these companies, developing products ranging from Mobile and Web applications to Computer vision MVPs",
   experiences: [
     {
+      companyLogo: liminalLogo,
+      companyName: "Liminal Insights Inc.",
+      date: "Aug 2022 - Aug 2023",
+      role: "Incoming Software Engineer Intern",
+      details:
+        "Under the NUS Overseas College Programme (NOC), I am excited to embark on a year long journey into Silicon Valley to work amongst, and learn from the visionaries of our generation. I look forward to putting my skillsets to good use, building tools to manage the collection and management of data from Liminal Insight's sensors and components.",
+      projectLink: "https://www.liminalinsights.com/",
+      techStacks: [],
+    },
+    {
       companyLogo: beeXLogo,
       companyName: "BeeX Private Limited",
-      date: "May 2022 - July 2022",
-      role: "Incoming Full Stack Engineer Intern",
+      date: "May 2022 - Current",
+      role: "Full Stack Engineer Intern",
       details:
-        "Over the incoming summer, I will be looking into the design and implementation of the fullstack aspects of the Sambal Platform for BeeX. I'm looking forward to further upgrade my skills in ReactJS, ExpressJS and Microsoft Azure! An exciting adventure is about to unfold, so stay tuned to find out more!",
+        "Under the SgInnovate Infinity Series programme, I am currently looking into the fullstack design and implementation of the Sambal Platform for BeeX. As a whole, I carry out the ideation, desigining and implementation of fullstack features for the Sambal Platform, displaying important data to users of BeeX's services.",
       projectLink: "https://beex.sg/",
       techStacks: [],
     },
     {
       companyLogo: skittleLogo,
       companyName: "Skittle Private Limited",
-      date: "Dec 2021 - Current",
+      date: "Dec 2021 - May 2022",
       role: "Full Stack Development Intern",
       details:
         "During my time in Skittle, I was given the opportunity to design and implement the fullstack implementation of a Reservation feature as part of improving their MVP. I was also tasked to redesign and shift their existing database from a NoSQL environment to one that utilises PSQL.",

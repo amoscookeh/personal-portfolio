@@ -29,7 +29,7 @@ const WorksCard = ({
               );
             }}
           >
-            <h3 className="text-white text-xl md:text-3xl font-bold">
+            <h3 className="text-white text-xl md:text-3xl font-bold hover:text-theme">
               {companyName}
             </h3>
           </button>

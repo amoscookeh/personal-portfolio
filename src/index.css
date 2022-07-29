@@ -113,3 +113,46 @@ html, body {
 .back span:nth-child(4) {
     animation-delay:.3s;	
 }
+
+/* BLOG */
+.blog-title {
+    @apply md:text-4xl text-2xl font-bold;
+}
+
+.blog-title::before {
+    content: "";
+    @apply block w-20 h-3 bg-theme rounded-full mb-3;
+}
+
+.blog-paragraph-header {
+    @apply text-white my-6 w-full md:text-xl md:text-left text-base text-center font-semibold;
+}
+
+.blog-paragraph-body {
+    @apply text-gray-300 my-6 w-full md:text-lg md:text-left text-sm text-center;
+}
+
+.blog-text-alone {
+    @apply flex-col justify-start w-full
+}
+
+
+.blog-paragraph-container {
+    @apply flex flex-col my-2 md:my-5 md:flex-row
+}
+
+.blog-text {
+    @apply flex-col justify-start w-full md:w-2/3 px-2
+}
+
+.blog-image-left {
+    @apply flex-col justify-start w-full md:w-1/3 rounded-md mx-2 my-4 object-fill
+}
+
+.blog-image-right {
+    @apply flex-col justify-start w-full md:w-1/3 rounded-md mx-2 my-4 hidden md:block object-fill
+}
+
+.blog-image-right-sm {
+    @apply flex-col justify-start w-full md:w-1/3 rounded-md mx-2 my-4 md:hidden block object-fill
+}

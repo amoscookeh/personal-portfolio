@@ -6,7 +6,7 @@ const WorksCard = ({
   date,
   role,
   details,
-  workLink,
+  projectLink,
 }) => {
   return (
     <>
@@ -24,7 +24,7 @@ const WorksCard = ({
             onClick={(e) => {
               e.preventDefault();
               window.open(
-                workLink,
+                projectLink,
                 "_blank" // <- This is what makes it open in a new window.
               );
             }}

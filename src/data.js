@@ -19,6 +19,9 @@ import myfirstroadtrip from "./assets/images/myfirstroadtrip.jpeg";
 import thebeautifulcoastsofeurope from "./assets/images/thebeautifulcoastsofeurope.jpeg";
 import theclimb from "./assets/images/theclimb.jpeg";
 
+// Blog Components
+import BeexReflection from "./components/blogs/BeexReflection";
+
 // File path
 import resumePath from "./assets/files/Amos_Liew_CV.pdf";
 
@@ -63,7 +66,8 @@ export const myWorksData = {
       projectName: "Teyeland",
       projectDetails:
         "As a part of NES' annual Ground Zero Startathon, my team and I pitched the idea of assessing Myopia using Computer Vision. Our pitch clinched the second runner up position.",
-      projectLink: "https://drive.google.com/file/d/1GgMLUg5BeXPRHuWNKsJ1BCBm9pCpGQgu/view?usp=sharing",
+      projectLink:
+        "https://drive.google.com/file/d/1GgMLUg5BeXPRHuWNKsJ1BCBm9pCpGQgu/view?usp=sharing",
       inProgress: false,
       techStacks: [],
     },
@@ -218,8 +222,8 @@ export const socialsData = {
 
 export const allStacks = [
   //   Java: { stackLink: ""},
-  { name: "JavaScript",stackLink: "" },
-  { name: "Python",stackLink: "" },
+  { name: "JavaScript", stackLink: "" },
+  { name: "Python", stackLink: "" },
   //   Dart: { stackLink: ""},
   //   JakartaEE: { stackLink: ""},
   //   PSQL: { stackLink: ""},
@@ -233,4 +237,15 @@ export const allStacks = [
   //   MongoDB: { stackLink: ""},
   //   Git: { stackLink: ""},
   //   OpenCV: { stackLink: ""},
+];
+
+export const blogData = [
+  {
+    name: "My BeeX Journey",
+    component: BeexReflection(),
+    thumbnail: beeXLogo,
+    date: "29th July 2022",
+    synopsis:
+      "A reflection of my 3 months as a Software Engineering intern @ BeeX",
+  },
 ];

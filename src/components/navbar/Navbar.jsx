@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Components
 import menuIcon from "../../assets/icons/more.png";
@@ -12,10 +13,13 @@ const Navbar = (props) => {
   return (
     <>
       <div className="bg-dark-body flex justify-between items-center md:py-6 py-3 mx-auto w-full">
-        <div className="text-lg flex px-8 md:px-14 lg:px-24">
+        <Link
+          className="text-lg flex px-8 md:px-14 lg:px-24 hover:text-theme"
+          to="/"
+        >
           <img src={amosIcon} alt="" className="h-8 mr-2 pb-2" />
           Amos Liew
-        </div>
+        </Link>
         <div className="hidden md:flex">{props.children}</div>
         <div className="md:hidden">
           <button

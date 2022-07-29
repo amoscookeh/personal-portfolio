@@ -23,7 +23,16 @@ const BeexReflection = () => {
         ></iframe>
       </div>
 
-      <h2 className="secondary-title">My BeeX Journey</h2>
+      <h2 className="secondary-title">
+        My{" "}
+        <a
+          className="text-theme hover:text-white"
+          href="https://beex.sg/"
+        >
+          BeeX
+        </a>{" "}
+        Journey
+      </h2>
       <p className="section-paragraph">{`As I near the end of my 3 months internship stint at BeeX, it is
         interesting to look back upon how this simple summer internship grew to
         become a huge growth and learning experience for me as a software
@@ -72,13 +81,19 @@ const BeexReflection = () => {
         <div className="blog-text">
           <div className="blog-paragraph-body">
             It was around this time that I stumbled into an interview
-            opportunity with BeeX. As I prepared for the interview with Grace,
-            the CEO of BeeX, I began to realise how well interning at BeeX would
-            fit into my goals. Learn how to build better software? Check. Learn
-            how a hardware company runs? Check. Learn about Computer Vision?
-            Check. Learn more about the startup scene? Check Check Check. With
-            that, I was sold. And I’m eternally grateful that things played out
-            the way it did.
+            opportunity with BeeX. As I prepared for the interview with{" "}
+            <a
+              className="text-theme hover:text-white"
+              href="https://www.linkedin.com/in/gracechia/"
+            >
+              Grace
+            </a>
+            , the CEO of BeeX, I began to realise how well interning at BeeX
+            would fit into my goals. Learn how to build better software? Check.
+            Learn how a hardware company runs? Check. Learn about Computer
+            Vision? Check. Learn more about the startup scene? Check Check
+            Check. With that, I was sold. And I’m eternally grateful that things
+            played out the way it did.
           </div>
         </div>
       </div>
@@ -207,12 +222,32 @@ const BeexReflection = () => {
             In all, I would say that I came into BeeX expecting to leave a
             better engineer. But I am now leaving BeeX as a better engineer,
             designer, problem solver, and a better potential founder. And I am
-            very grateful for my CEO Grace, CTO Eng Wei, SWE Mentor Wei Hong,
-            and the rest of BeeX for making this experience so fruitful. I’d say
-            that with their impeccable vision, timing, and team, BeeX’s success
-            isn’t a matter of “if”, but a matter of “when”, and I am excited to
-            see how they are gonna change the world. It was my pleasure being a
-            small part of this.
+            very grateful for my CEO{" "}
+            <a
+              className="text-theme hover:text-white"
+              href="https://www.linkedin.com/in/gracechia/"
+            >
+              Grace
+            </a>
+            , CTO{" "}
+            <a
+              className="text-theme hover:text-white"
+              href="https://www.linkedin.com/in/gohew/"
+            >
+              Eng Wei
+            </a>
+            , SWE Mentor{" "}
+            <a
+              className="text-theme hover:text-white"
+              href="https://www.linkedin.com/in/cheng-wei-hong-6a028a243/"
+            >
+              Wei Hong
+            </a>{" "}
+            , and the rest of BeeX for making this experience so fruitful. I’d
+            say that with their impeccable vision, timing, and team, BeeX’s
+            success isn’t a matter of “if”, but a matter of “when”, and I am
+            excited to see how they are gonna change the world. It was my
+            pleasure being a small part of this.
           </div>
         </div>
       </div>

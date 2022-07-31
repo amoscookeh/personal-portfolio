@@ -6,6 +6,7 @@ import SnapshotPanel from "./snapshot.png";
 import Hashtag from "./hashtag.png";
 import Ruler from "./ruler.png";
 import Events from "./events.jpeg";
+import Team from "./team.jpg";
 
 const BeexReflection = () => {
   return (
@@ -25,10 +26,7 @@ const BeexReflection = () => {
 
       <h2 className="secondary-title">
         My{" "}
-        <a
-          className="text-theme hover:text-white"
-          href="https://beex.sg/"
-        >
+        <a className="text-theme hover:text-white" href="https://beex.sg/">
           BeeX
         </a>{" "}
         Journey
@@ -250,6 +248,45 @@ const BeexReflection = () => {
             pleasure being a small part of this.
           </div>
         </div>
+      </div>
+
+      <div className="blog-paragraph-container">
+        <img className="blog-image-right-sm" src={Team} alt="Team" />
+        <div className="blog-text">
+          <div className="blog-paragraph-header">Conclusion</div>
+          <div className="blog-paragraph-body">
+            In all, I would say that I came into BeeX expecting to leave a
+            better engineer. But I am now leaving BeeX as a better engineer,
+            designer, problem solver, and a better potential founder. And I am
+            very grateful for my CEO{" "}
+            <a
+              className="text-theme hover:text-white"
+              href="https://www.linkedin.com/in/gracechia/"
+            >
+              Grace
+            </a>
+            , CTO{" "}
+            <a
+              className="text-theme hover:text-white"
+              href="https://www.linkedin.com/in/gohew/"
+            >
+              Eng Wei
+            </a>
+            , SWE Mentor{" "}
+            <a
+              className="text-theme hover:text-white"
+              href="https://www.linkedin.com/in/cheng-wei-hong-6a028a243/"
+            >
+              Wei Hong
+            </a>{" "}
+            , and the rest of BeeX for making this experience so fruitful. I’d
+            say that with their impeccable vision, timing, and team, BeeX’s
+            success isn’t a matter of “if”, but a matter of “when”, and I am
+            excited to see how they are gonna change the world. It was my
+            pleasure being a small part of this.
+          </div>
+        </div>
+        <img className="blog-image-right" src={Team} alt="Team" />
       </div>
     </div>
   );

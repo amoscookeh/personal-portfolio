@@ -146,13 +146,13 @@ html, body {
 }
 
 .blog-image-left {
-    @apply flex-col justify-start w-full md:w-1/3 rounded-md mx-2 my-4 object-fill
+    @apply flex-col justify-start w-full md:w-1/3 rounded-md mx-2 my-4 object-cover
 }
 
 .blog-image-right {
-    @apply flex-col justify-start w-full md:w-1/3 rounded-md mx-2 my-4 hidden md:block object-fill
+    @apply flex-col justify-start w-full md:w-1/3 rounded-md mx-2 my-4 hidden md:block object-cover
 }
 
 .blog-image-right-sm {
-    @apply flex-col justify-start w-full md:w-1/3 rounded-md mx-2 my-4 md:hidden block object-fill
+    @apply flex-col justify-start w-full md:w-1/3 rounded-md mx-2 my-4 md:hidden block object-cover
 }

@@ -38,7 +38,7 @@ export const Home = () => {
     <>
       {loadPage ? (
         <div className="flex h-screen justify-center items-center mx-auto">
-          <LoadingPage fourLetterWord={'AMOS'} />
+          <LoadingPage fourLetterWord={"AMOS"} />
         </div>
       ) : (
         <></>
@@ -62,7 +62,10 @@ export const Home = () => {
                 />
               );
             })}
-            <Link className={`btn btn-primary btn-sm text-white md:mr-2`} to={"/blog"}>
+            <Link
+              className={`btn btn-primary btn-sm text-white md:mr-2`}
+              to={"/blog"}
+            >
               My Blog
             </Link>
           </>

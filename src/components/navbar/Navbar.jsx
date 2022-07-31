@@ -37,7 +37,7 @@ const Navbar = (props) => {
           style={{
             transition: "all 500ms ease-in-out",
             height: props.showMenu
-              ? props.numberOfLinks * 40 + 70 + "px"
+              ? props.numberOfLinks * 32 + 70 + "px"
               : "0px",
           }}
           className={`flex-col text-center bg-dark-body`}

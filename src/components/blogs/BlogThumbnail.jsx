@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const BlogThumbnail = ({ name, component, thumbnail, date, synopsis, idx }) => {
   return (
-    <div class="card w-96 bg-base-100 shadow-xl image-full">
+    <div class="card w-full bg-base-100 shadow-xl image-full">
       <figure>
         <img className="bg-dark-body" src={thumbnail} alt="Thumbnail" />
       </figure>

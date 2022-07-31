@@ -5,6 +5,7 @@ import { Link, useParams } from "react-router-dom";
 import LoadingPage from "../../components/loadingpage/LoadingPage";
 import Navbar from "../../components/navbar/Navbar";
 import Hero from "../../components/hero/Hero";
+import Socials from "../../components/socials/Socials";
 
 // Data
 import { blogData } from "../../data";
@@ -69,7 +70,7 @@ export const Blog = () => {
                   <div className="w-full">
                     <h2 className="secondary-title">Amos' Thoughts</h2>
                     <p className="section-paragraph">{`Just thought it would be nice to share some of my thoughts!`}</p>
-                    <div className="workcards max-w-6xl mx-auto grid gap-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+                    <div className="workcards max-w-6xl mx-auto grid gap-2 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                       {blogData.map((blog, idx) => {
                         return <BlogThumbnail {...blog} idx={idx} />;
                       })}
@@ -79,6 +80,7 @@ export const Blog = () => {
               </>
             )}
           </div>
+          <Socials />
         </>
       )}
     </>

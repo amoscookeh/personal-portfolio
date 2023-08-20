@@ -140,7 +140,7 @@ export const workExperiencesData = {
       date: "Aug 2022 - Aug 2023",
       role: "Incoming Software Engineer Intern",
       details:
-        "Under the NUS Overseas College Programme (NOC), I am excited to embark on a year long journey into Silicon Valley to work amongst, and learn from the visionaries of our generation. I look forward to putting my skillsets to good use, building tools to manage the collection and management of data from Liminal Insight's sensors and components.",
+        "Under the NUS Overseas Programme (NOC) in Silicon Valley, I interned as a SWE at Liminal. I boosted data collection by 10% with multithreading, and enhanced team efficiency by 25% with tools like automated QA scripts and an OPCUA test server. Honestly the best one year of my life!",
       projectLink: "https://www.liminalinsights.com/",
       techStacks: [],
     },

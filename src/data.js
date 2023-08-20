@@ -18,6 +18,9 @@ import offthebeatenpath from "./assets/images/offthebeatenpath.jpeg";
 import myfirstroadtrip from "./assets/images/myfirstroadtrip.jpeg";
 import thebeautifulcoastsofeurope from "./assets/images/thebeautifulcoastsofeurope.jpeg";
 import theclimb from "./assets/images/theclimb.jpeg";
+import firstdayinsv from "./assets/images/firstdayinsv.jpeg";
+import presidiosf from "./assets/images/presidiosf.jpeg";
+import carcamping from "./assets/images/carcamping.jpeg";
 
 // Blog Components
 import BeexReflection from "./components/blogs/BeexReflection";
@@ -206,6 +209,27 @@ export const adventureData = {
       details:
         "Excitement and fear from my first overseas roadtrip, captured in video",
       link: "https://youtu.be/LDfyTf5VsYU",
+    },
+    {
+      thumbnail: firstdayinsv,
+      name: "First Day as an SV SWE Intern",
+      details:
+        "A scrappy vlog and a short reflection of my first day on the job in the Bay Area!",
+      link: "https://youtu.be/Eq5hY4H49Ew",
+    },
+    {
+      thumbnail: presidiosf,
+      name: "Exploring Presidio in SF",
+      details:
+        "Celebrating my housemate's birthday by exploring San Francisco!",
+      link: "https://youtu.be/LEBEbQurNnw",
+    },
+    {
+      thumbnail: carcamping,
+      name: "First car camping adventure",
+      details:
+        "One of my favourite memories - car camping in Sequoia NP!",
+      link: "https://youtu.be/l6EDXOlk3M8",
     },
   ],
 };

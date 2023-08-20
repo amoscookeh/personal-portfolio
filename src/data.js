@@ -147,10 +147,10 @@ export const workExperiencesData = {
     {
       companyLogo: beeXLogo,
       companyName: "BeeX Private Limited",
-      date: "May 2022 - Current",
+      date: "May 2022 - Jul 2022",
       role: "Full Stack Engineer Intern",
       details:
-        "Under the SgInnovate Infinity Series programme, I am currently looking into the fullstack design and implementation of the Sambal Platform for BeeX. As a whole, I carry out the ideation, desigining and implementation of fullstack features for the Sambal Platform, displaying important data to users of BeeX's services.",
+        "Under the SgInnovate Infinity Series program, I embarked on an internship at BeeX. My responsibilities included developing dynamic 3D features for point cloud data visualization and optimizing user efficiency through a lazy loading-based search feature, leading to a 70% reduction in search time.",
       projectLink: "https://beex.sg/",
       techStacks: [],
     },

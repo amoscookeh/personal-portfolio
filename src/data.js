@@ -141,7 +141,7 @@ export const workExperiencesData = {
       companyLogo: liminalLogo,
       companyName: "Liminal Insights Inc.",
       date: "Aug 2022 - Aug 2023",
-      role: "Incoming Software Engineer Intern",
+      role: "Software Engineer Intern",
       details:
         "Under the NUS Overseas Programme (NOC) in Silicon Valley, I interned as a SWE at Liminal. I boosted data collection by 10% with multithreading, and enhanced team efficiency by 25% with tools like automated QA scripts and an OPCUA test server. Honestly the best one year of my life!",
       projectLink: "https://www.liminalinsights.com/",

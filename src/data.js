@@ -163,7 +163,7 @@ export const workExperiencesData = {
       date: "Dec 2021 - May 2022",
       role: "Full Stack Development Intern",
       details:
-        "During my time in Skittle, I was given the opportunity to design and implement the fullstack implementation of a Reservation feature as part of improving their MVP. I was also tasked to redesign and shift their existing database from a NoSQL environment to one that utilises PSQL.",
+        "During my time in Skittle (now Bellos), I was given the opportunity to design and implement the fullstack implementation of a Reservation feature as part of improving their MVP. I was also tasked to redesign and shift their existing database from a NoSQL environment to one that utilises PSQL.",
       projectLink: "https://www.skittle.me/",
       techStacks: [],
     },

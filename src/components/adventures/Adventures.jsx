@@ -16,7 +16,7 @@ const MyWorks = () => {
                     <h2 className="secondary-title">Adventures</h2>
                     <p className="section-paragraph">{adventureData.details}</p>
                     <div className="workcards max-w-6xl mx-auto grid gap-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-                        {adventureData.adventures.map(adventure => (
+                        {adventureData.adventures.toReversed().map(adventure => (
                             <AdventureCard {...adventure} />
                         ))}
                     </div>

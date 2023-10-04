@@ -68,9 +68,8 @@ export const myWorksData = {
       projectLogo: TeyelandLogo,
       projectName: "Teyeland",
       projectDetails:
-        "As a part of NES' annual Ground Zero Startathon, my team and I pitched the idea of assessing Myopia using Computer Vision. Our pitch clinched the second runner up position.",
-      projectLink:
-        "https://drive.google.com/file/d/1GgMLUg5BeXPRHuWNKsJ1BCBm9pCpGQgu/view?usp=sharing",
+        "As a part of NES' annual Ground Zero Startathon and Stanford's Annual Treehacks, my team and I pitched the idea of assessing Myopia using Computer Vision. Our pitch clinched the second runner up position.",
+      projectLink: "https://linktr.ee/teyeland",
       inProgress: false,
       techStacks: [],
     },

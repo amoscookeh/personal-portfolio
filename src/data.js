@@ -52,7 +52,7 @@ export const aboutMeData = {
   cursors: [
     "a dream chaser",
     "an adventurer",
-    "a developer",
+    "an engineer",
     "a videographer",
     "a leader",
   ],
@@ -149,9 +149,9 @@ export const workExperiencesData = {
     },
     {
       companyLogo: beeXLogo,
-      companyName: "BeeX Private Limited",
+      companyName: "BeeX Autonomous Systems",
       date: "May 2022 - Jul 2022",
-      role: "Full Stack Engineer Intern",
+      role: "Software Engineer Intern",
       details:
         "Under the SgInnovate Infinity Series program, I embarked on an internship at BeeX. My responsibilities included developing dynamic 3D features for point cloud data visualization and optimizing user efficiency through a lazy loading-based search feature, leading to a 70% reduction in search time.",
       projectLink: "https://beex.sg/",
@@ -159,9 +159,9 @@ export const workExperiencesData = {
     },
     {
       companyLogo: skittleLogo,
-      companyName: "Skittle Private Limited",
+      companyName: "Bellos",
       date: "Dec 2021 - May 2022",
-      role: "Full Stack Development Intern",
+      role: "Software Engineer Intern",
       details:
         "During my time in Skittle (now Bellos), I was given the opportunity to design and implement the fullstack implementation of a Reservation feature as part of improving their MVP. I was also tasked to redesign and shift their existing database from a NoSQL environment to one that utilises PSQL.",
       projectLink: "https://www.linkedin.com/company/bellos/",
@@ -169,9 +169,9 @@ export const workExperiencesData = {
     },
     {
       companyLogo: kinexcsLogo,
-      companyName: "Kinexcs Private Limited",
+      companyName: "Kinexcs",
       date: "May 2021 - Aug 2021",
-      role: "Software Development Intern",
+      role: "Software Engineer Intern",
       details:
         "During my 3 month stint at Kinexcs, I was given the opportunity to lead a team of 6 other interns, as their software development team lead, to concurrently improve their existing mobile application, while developing an MVP for their newest Computer Vision Physiotherapist.",
       workLink: "https://www.kinexcs.com/",
@@ -227,8 +227,7 @@ export const adventureData = {
     {
       thumbnail: carcamping,
       name: "First car camping adventure",
-      details:
-        "One of my favourite memories - car camping in Sequoia NP!",
+      details: "One of my favourite memories - car camping in Sequoia NP!",
       link: "https://youtu.be/l6EDXOlk3M8",
     },
   ],
